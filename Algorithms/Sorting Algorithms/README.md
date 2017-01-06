@@ -1,8 +1,8 @@
 # Sorting Algorithms
 
 ## Selection Sort
-Time Complexity:
-Space Complexity:
+Time Complexity: O(n**2)
+Space Complexity: O(1)
 
 *Description:*
 Selection Sort works by 'selecting' the largest element in the list and moving it to the end of the list--in a list of length n, the index would be n-1.  Next, it iterates through the list and selects the second largest element in the list, and places it at index (n-2). This process is repeated until the list is fully sorted.  
