@@ -15,3 +15,6 @@ class Test_Sort(unittest.TestCase):
         print("expected: {}".format(str(expected)))
         print("actual: {}".format(str(actual)))
         self.assertEqual(expected, actual)
+
+if __name__ == '__main__':
+    unittest.main()
