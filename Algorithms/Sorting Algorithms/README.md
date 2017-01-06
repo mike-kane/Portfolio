@@ -1,7 +1,7 @@
 # Sorting Algorithms
 
 ## Selection Sort
-Time Complexity: O(n**2)
+Time Complexity: O(n**2)      
 Space Complexity: O(1)
 
 *Description:*
@@ -26,6 +26,8 @@ Space Complexity:
 ## Insertion Sort
 Time Complexity:
 Space Complexity:
+
+*Description:*  
 
 ## Intro Sort
 Time Complexity:
