@@ -1,3 +1,6 @@
+import unittest
+
+
 def selection_sort(list_to_sort):
     # iterate from back of list towards front of list
     for slot_to_fill in range(len(list_to_sort) - 1, 0, -1):
@@ -18,7 +21,17 @@ def selection_sort(list_to_sort):
     return list_to_sort
 
 
-a = [5, 15, 23, 1, 99, 443, 42, 7]
+class Test_Sort(unittest.TestCase):
+
+    def test_selection_sort(self):
+        test_list = [5, 15, 23, 1, 99, 443, 42, 7]
+        print("original list: {}".format(str(test_list)))
+        expected = sorted(test_list)
+        actual = selection_sort(test_list)
+        print("expected: {}".format(str(expected)))
+        print("actual: {}".format(str(actual)))
+        self.assertEqual(expected, actual)
+
 
 if __name__ == '__main__':
-    print(selection_sort(a))
+    unittest.main()
