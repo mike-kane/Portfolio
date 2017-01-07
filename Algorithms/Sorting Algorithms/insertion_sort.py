@@ -2,7 +2,21 @@ import unittest
 
 
 def insertion_sort(list_to_sort):
-    pass
+    # iterate through list starting at index 1 and ending at len(list)
+    for i in range(1, len(list_to_sort)):
+        # grab the item that was stored at index i
+        temp_var = list_to_sort[i]
+        # keep track of the index so that it can be manipulated later
+        index = i
+    # while not at start of list AND item stored is smaller than item before it,
+    # move each item by -1.
+        while index > 0 and temp_var < list_to_sort[index - 1]:
+            list_to_sort[index] = list_to_sort[index - 1]
+            index -= 1
+        # insert item in spot opened by moving all items back one.
+        list_to_sort[index] = temp_var
+
+    return list_to_sort
 
 
 class Test_Sort(unittest.TestCase):
