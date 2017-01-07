@@ -1,6 +1,6 @@
 Data Structures
 ===============
-  
+
 [x] Stack
 [x] Singly Linked List
 [x] Doubly-Circular Linked List
@@ -23,7 +23,7 @@ Data Structures
 Sorting Algorithms
 ==================
 
-[ ] Selection Sort
+[x] Selection Sort
 [ ] Gnome Sort
 [ ] Insertion Sort
 [ ] Heap Sort
