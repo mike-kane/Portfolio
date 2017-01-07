@@ -12,8 +12,8 @@ Since the sort can be done in-place, the space complexity of Selection Sort is O
 It is worth noting that as selection sort progresses, the range of the inner loop gets smaller and smaller.  This means that the time complexity of selection sort is actually better than O(n<sup>2</sup>), although according to the rules of Big O, we ignore this and still classify the time complexity of this sort as 0(n<sup>2</sup>).
 
 ## Bucket Sort
-Time Complexity:                    
-Space Complexity:               
+Time Complexity:                     
+Space Complexity: O(n)             
 
 ## Gnome Sort  
 Time Complexity:                
@@ -21,11 +21,11 @@ Space Complexity:
 
 ## Heap Sort
 Time Complexity:                
-Space Complexity:               
+Space Complexity: O(1)         
 
 ## Insertion Sort
 Time Complexity:                              
-Space Complexity:                             
+Space Complexity: O(1)                            
 
 *Description:*  
 
@@ -35,16 +35,16 @@ Space Complexity:
 
 ## Merge Sort
 Time Complexity:                
-Space Complexity:               
+Space Complexity: O(n)             
 
 ## Quick Sort
 Time Complexity:                
-Space Complexity:               
+Space Complexity: O(log(n))         
 
 ## Radix Sort
 Time Complexity:                
-Space Complexity:               
+Space Complexity: O(n+k)          
 
 ## Tim Sort
 Time Complexity:                
-Space Complexity:               
+Space Complexity: O(n)             
