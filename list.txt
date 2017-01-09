@@ -4,9 +4,9 @@ Data Structures
 [x] Stack
 [x] Singly Linked List
 [x] Doubly-Circular Linked List
-[ ] Queue
+[x] Queue
 [ ] Circular Buffer
-[ ] Binary Search Tree
+[x] Binary Search Tree
 [ ] Heap (max or min)
 [ ] Bit Map
 [ ] Hash Map
@@ -25,10 +25,10 @@ Sorting Algorithms
 
 [x] Selection Sort
 [ ] Gnome Sort
-[ ] Insertion Sort
+[x] Insertion Sort
 [ ] Heap Sort
 [ ] Quick Sort
-[ ] Merge Sort
+[x] Merge Sort
 [ ] Radix Sort
 [ ] Intro Sort
 [ ] Tim Sort
