@@ -17,7 +17,9 @@ Space Complexity: O(n)
 
 ## Gnome Sort  
 Time Complexity:                
-Space Complexity:               
+Space Complexity:  
+
+*Description:*                
 
 ## Heap Sort
 Time Complexity:                
@@ -35,7 +37,9 @@ Space Complexity:
 
 ## Merge Sort
 Time Complexity:                
-Space Complexity: O(n)             
+Space Complexity: O(n)
+
+*Description:*   Merge sort is a classic "divide-and-conquer" algorithm.  The algorithm starts by dividing the list in half, and then cutting each of those section half, again and again until each list is a single item.  Once the list is divided into a bunch of sublists each containing one item, the "conquer" part begins.  This is where Merge Sort gets its name--the algorithm then combines individual items into lists of two items, putting the smaller item first.  To be specific, the algorithm uses 3 pointers--1 for each sub list (we'll call them _left_ and _right_), and one to keep track of the main list and where the items go within it.  The algorithm compares the data _left_ and _right_ are pointing at, and selects the smaller value to be added to the main list.  The _left_ or _right_ pointer that was pointing at the smaller data is then incremented, moving onto the next item in its list.  This process is repeated until both sub lists have been merged into the main list, and then repeated on the next set of sub lists.  This process repeats until all sub lists have been merged back into 1 main list, but now in sorted order!
 
 ## Quick Sort
 Time Complexity:                
