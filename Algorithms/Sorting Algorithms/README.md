@@ -12,24 +12,28 @@ Since the sort can be done in-place, the space complexity of Selection Sort is O
 It is worth noting that as selection sort progresses, the range of the inner loop gets smaller and smaller.  This means that the time complexity of selection sort is actually better than O(n<sup>2</sup>), although according to the rules of Big O, we ignore this and still classify the time complexity of this sort as 0(n<sup>2</sup>).            
 
 ## Gnome Sort  
-Time Complexity:                
-Space Complexity:  
+Time Complexity: O(n<sup>2</sup>)             
+Space Complexity: O(1)
 
-*Description:*                
+*Description:*  Gnome Sort was originally called "Stupid Sort", and with good reason.  Gnome sort is an iterative sort that accomplishes sorting through a series of swaps for each item.  In this way, it is similar to bubble sort.  The sheer number of swaps this algorithm makes pretty much ensures that the algorithm will have a bounded runtime of 0(n<sup>2</sup>).    
 
 ## Heap Sort
 Time Complexity:  O(n log(n))              
-Space Complexity: O(1)         
+Space Complexity: O(1)   
+
+*Description:*      
 
 ## Insertion Sort
-Time Complexity:  O(n**2)                           
+Time Complexity:  O(n<sup>2</sup>)                           
 Space Complexity: O(1)                            
 
 *Description:*  Insertion sort is a simple but reliable iterative sorting algorithm.  It works by treating the first item in the array as a sorted sequence (that contains only that single item).  Then, the algorithm iterates through the rest of the array, grabs the next item, and iterates through the sequence until it finds the correct sorted position for that item.  Once the algorithm has iterated all the way through the original list, all items will have been sorted into the sequence, meaning that the list will have been sorted in-place.
 
 ## Intro Sort
 Time Complexity:                
-Space Complexity:               
+Space Complexity:
+
+*Description:*              
 
 ## Merge Sort
 Time Complexity:  O(n log(n))              
@@ -47,8 +51,12 @@ Once the pivot is chosen, the list then sorts all values smaller than the pivot 
 
 ## Radix Sort
 Time Complexity:                
-Space Complexity: O(n+k)          
+Space Complexity: O(n+k)
+
+*Description:*         
 
 ## Tim Sort
 Time Complexity:                
 Space Complexity: O(n)             
+
+*Description:*
