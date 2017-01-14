@@ -25,7 +25,7 @@ Space Complexity: O(1)
 Time Complexity:  O(n**2)                           
 Space Complexity: O(1)                            
 
-*Description:*  
+*Description:*  Insertion sort is a simple but reliable iterative sorting algorithm.  It works by treating the first item in the array as a sorted sequence (that contains only that single item).  Then, the algorithm iterates through the rest of the array, grabs the next item, and iterates through the sequence until it finds the correct sorted position for that item.  Once the algorithm has iterated all the way through the original list, all items will have been sorted into the sequence, meaning that the list will have been sorted in-place.
 
 ## Intro Sort
 Time Complexity:                
