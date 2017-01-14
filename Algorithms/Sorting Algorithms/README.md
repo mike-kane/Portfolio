@@ -9,11 +9,7 @@ Selection Sort works by 'selecting' the largest element in the list and moving i
 
 Since the sort can be done in-place, the space complexity of Selection Sort is O(1).  The space complexity is bounded at O(n<sup>2</sup>).  This is because Selection Sort contains an outer loop (starting at the end of the list and iterating backwards) and an inner loop (iterating from the start of the list up to the current position of the outer loop).  
 
-It is worth noting that as selection sort progresses, the range of the inner loop gets smaller and smaller.  This means that the time complexity of selection sort is actually better than O(n<sup>2</sup>), although according to the rules of Big O, we ignore this and still classify the time complexity of this sort as 0(n<sup>2</sup>).
-
-## Bucket Sort
-Time Complexity:  O(n**2)                   
-Space Complexity: O(n)             
+It is worth noting that as selection sort progresses, the range of the inner loop gets smaller and smaller.  This means that the time complexity of selection sort is actually better than O(n<sup>2</sup>), although according to the rules of Big O, we ignore this and still classify the time complexity of this sort as 0(n<sup>2</sup>).            
 
 ## Gnome Sort  
 Time Complexity:                
