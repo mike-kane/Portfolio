@@ -42,8 +42,12 @@ Space Complexity: O(n)
 *Description:*   Merge sort is a classic "divide-and-conquer" algorithm.  The algorithm starts by dividing the list in half, and then cutting each of those section half, again and again until each list is a single item.  Once the list is divided into a bunch of sublists each containing one item, the "conquer" part begins.  This is where Merge Sort gets its name--the algorithm then combines individual items into lists of two items, putting the smaller item first.  To be specific, the algorithm uses 3 pointers--1 for each sub list (we'll call them _left_ and _right_), and one to keep track of the main list and where the items go within it.  The algorithm compares the data _left_ and _right_ are pointing at, and selects the smaller value to be added to the main list.  The _left_ or _right_ pointer that was pointing at the smaller data is then incremented, moving onto the next item in its list.  This process is repeated until both sub lists have been merged into the main list, and then repeated on the next set of sub lists.  This process repeats until all sub lists have been merged back into 1 main list, but now in sorted order!
 
 ## Quick Sort
-Time Complexity:                
-Space Complexity: O(log(n))         
+Time Complexity:  O(n log(n))*              
+Space Complexity: O(log(n))
+
+*Description*:  Quick Sort is another classic "divide-and-conquer" algorithm.  The algorithm starts by selecting an index in the array that will act as a "pivot".  This can effectively be randomly chosen, since no position in the array provides a performance advantage in all situations.  Put another way, each pivot position has a weakness depending on the type of data--for instance, choosing the last item in the list as a pivot would give us a O(n**2) run time if the list was already nearly sorted.  
+
+Once the pivot is chosen, the list then sorts all values smaller than the pivot to the left, and all values larger to the pivot to the right.  Now, the recursion comes in--the algorithm then calls itself on the left and right halves.  This will eventually result in a base case of a list with 1 item in it.  By definition, a list with one item in sorted, so it is returned.  As the recursive calls return, the items are concatenated with the smaller values first, the pivot (and any values that were equal to the pivot) in the middle, and the larger values on the right.      
 
 ## Radix Sort
 Time Complexity:                
