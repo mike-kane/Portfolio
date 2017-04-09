@@ -21,10 +21,14 @@ class Node():
 
 class singly_linked_list():
 
-    def __init__(self):
+    def __init__(self, iterable=None):
         self.head = None
         self.tail = None
         self.count = 0
+
+        if iterable:
+            for item in iterable:
+                self.insertAtTail(item)
 
     def isEmpty(self):
         if self.head is None:

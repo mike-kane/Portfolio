@@ -50,8 +50,8 @@ class Test_Sort(unittest.TestCase):
     def test_merge_sort(self):
         test_list = [99, 15, 4, 23, 7, 14, 0, 92]
         print("original: {}".format(str(test_list)))
-        expected = sorted(test_list)
         actual = merge_sort(test_list)
+        expected = sorted(test_list)
         print("expected: {}".format(str(expected)))
         print("actual: {}".format(str(actual)))
         self.assertEqual(expected, actual)
