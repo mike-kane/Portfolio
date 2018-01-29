@@ -1,6 +1,6 @@
 # Compiled source #
 ###################
-.ipynb_checkpoints
+/.ipynb_checkpoints
 *.com
 *.class
 *.dll
