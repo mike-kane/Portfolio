@@ -11,7 +11,7 @@ I've been working as a Data Scientist for the Flatiron School for just about a y
 
 ## Education
 
-I'm currently finishing up my final semester for an M.S. in Applied Data Science from Syracuse University. I'm on track to graduate with a GPA of 3.861. During my graduate studies, I've focused heavily on Machine Learning and Deep Learning, as well as more specialized topics such as NLP and Data Visualization.
+I'm currently finishing up my final semester for an M.S. in Applied Data Science from Syracuse University. I'm on track to graduate in April 2019 with a GPA of 3.861. During my graduate studies, I've focused heavily on Machine Learning and Deep Learning, as well as more specialized topics such as NLP and Data Visualization.
 
 ## Goals and Interests
 
